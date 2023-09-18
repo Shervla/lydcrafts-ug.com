@@ -411,7 +411,7 @@ a{
 	}
 }
 
-@media (max-width: 400px){
+@media (max-width: 760px){
 	.product-box{
 		width: 280px;
 	}
@@ -603,7 +603,7 @@ border-radius: 10px;
 
 
 
-@media (max-width: 780px){
+@media (max-width: 760px){
 	.services{
 	margin-left: 30px;
 	
@@ -704,7 +704,7 @@ footer .end{
 
 }
 
-@media (max-width: 780px){
+@media (max-width: 760px){
 	.full-footer{
 		visibility: hidden;
 		display: none;
