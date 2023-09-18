@@ -174,7 +174,7 @@ hr{
 
 
 
-@media (max-width: 600px){
+@media (max-width: 450px){
 	.btn-part .log-btn{
 	visibility: hidden;
 }
