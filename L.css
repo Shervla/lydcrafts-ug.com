@@ -17,10 +17,24 @@ body{
 
 .header{
 	padding: 20px;
+	margin-top: 30px;
 }
 
 
+.start h1{
+	width: 100%;
+	text-align: center;
+	color: whites;
+	background-color: burlywood;
+	font-size: 30px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
 
+	
+}
 
 
 .part-1{
@@ -44,7 +58,7 @@ body{
 }
 
 span{
-	color: red;
+	color: burlywood;
 }
 .btn-part{
    display: flex;
@@ -102,15 +116,17 @@ hr{
 
 
 .form-part{
-	background-color: #6e6e73;
+	background-color: burlywood;
 }
 
 .form-p form input{
-	border: 2px solid #6e6e73;
+	border: 1px solid white;
 	margin-left: 30px;
 	width: 80%;
 	height: 40px;
 	padding-left: 20px;
+	outline: none;
+	text-decoration: none;
 	
 }
 
@@ -537,8 +553,8 @@ a{
 
 .services{
 	margin-left: 90px;
-    display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px,auto));
+    display: flex;
+    flex-wrap: wrap;
 	align-items: center;
 	gap: 14px;
 	margin-top: 20px;
@@ -589,7 +605,7 @@ border-radius: 10px;
 
 
 .services .select-btn{
-	margin-left: 250%;
+	margin-left: 25%;
     display: flex;
     
 }
@@ -607,7 +623,7 @@ border-radius: 10px;
 	.services{
 	margin-left: 30px;
 	
-    display: grid;
+    display: flex;
 	grid-template-columns: repeat(auto-fit, minmax(200px,auto));
 	align-items: center;
 	gap: 14px;
@@ -705,6 +721,16 @@ footer .end{
 }
 
 @media (max-width: 760px){
+
+.btn-part .log-btn{
+	display: none;
+}
+
+	.product-services .btn {
+    margin-left: 10%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
 	.full-footer{
 		visibility: hidden;
 		display: none;
@@ -811,4 +837,111 @@ footer .end{
 
 .social-2 ul li a{
 	color: #0071e3;
+}
+
+
+@media (max-width: 414px){
+.small-form form input {
+    margin-left: 60px;
+    border: 1px solid black;
+    outline: none;
+    width: 60%;
+    padding: 18px;
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    visibility: visible;
+}
+
+.logo {
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.slider-heading h3{
+	font-size: 18px;
+}
+.services .select-btn {
+    margin-left: 20%;
+    display: flex;
+    gap: 7px;
+    padding: 20px;
+}
+
+
+	.services{
+    flex-wrap: wrap;
+   
+    margin-left: 0px;
+    position: relative;
+    flex-direction: initial;
+
+}
+
+
+.services .service-content {
+    align-items: flex-start;
+    width: 100%;
+    margin: 0px 10px 0px 10px;
+}
+
+
+.product-services{
+	padding: 10px;
+}
+
+.product-services .btn {
+    margin-left: 60%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-part {
+    display: none;
+    
+}
+
+
+
+
+
+.btn-part .btn {
+    color: whitesmoke;
+    margin-left: 0px;
+    background: #6e6e73;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.social-2 ul {
+    display: flex;
+    margin-left: 100px;
+}
+
+.product-box strong {
+    color: #29292c;
+    font-size: 18px;
+}
+
+.small-form a i {
+    color: white;
+    background-color: burlywood;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    padding: 12px 11px;
+}
+
+.start h1 {
+    width: 100%;
+    text-align: center;
+    color: whites;
+    background-color: burlywood;
+    font-size: 20px;
+}
 }
